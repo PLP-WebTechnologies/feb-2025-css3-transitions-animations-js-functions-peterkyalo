@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & JS Animations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Sections</h1>
+        
+        <div class="preferences">
+            <h2>User Preferences</h2>
+            <div class="pref-form">
+                <label for="username">Your Name:</label>
+                <input type="text" id="username">
+                <label for="theme">Theme Color:</label>
+                <select id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                </select>
+                <button id="savePrefs">Save Preferences</button>
+            </div>
+        </div>
+        
+        <div class="animation-area">
+            <h2>Animation Playground</h2>
+            <div class="animated-box" id="targetBox"></div>
+            <button id="animateBtn">Trigger Animation</button>
+            <button id="bounceBtn">Bounce Effect</button>
+            <button id="rotateBtn">Rotate & Scale</button>
+        </div>
+        
+        <div class="gallery">
+            <h2>Image Hover Effects</h2>
+            <div class="image-container">
+                <img src="images/image1.jpg" alt="Image 1" class="gallery-img">
+                <img src="images/image2.jpg" alt="Image 2" class="gallery-img">
+                <img src="images/image3.jpg" alt="Image 3" class="gallery-img">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
